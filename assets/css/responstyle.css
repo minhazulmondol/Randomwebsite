@@ -1,0 +1,136 @@
+@media screen and (max-width: 600px) {
+
+    /* Firstsection Video */
+    .banner video {
+        width: auto;
+        height: auto;
+
+    }
+
+    /* overlay from video */
+    .banner .video_overlay {
+        height: 100%;
+        width: auto;
+    }
+
+    /* image of Front */
+    #home-sec .mycon img {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    #home-sec .mycon1 img {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .fontimg {
+        position: absolute;
+        margin: 50px 50px;
+        color: whitesmoke;
+    }
+
+    .thirdtext {
+        margin: 40px 0 0 0;
+    }
+
+    /* Button third */
+    .btn-reff {
+
+        margin: 60px 0 0 0;
+    }
+
+    .banner video {
+        display: none;
+
+    }
+
+    /* Firstsection Video */
+    .bannerr video {
+        display: block;
+        position: fixed;
+        overflow: auto;
+        width: 100% !important;
+        height: auto !important;
+        z-index: -2;
+    }
+
+    /* FONT OF HOME SECTION 5*/
+    .fontimg1 {
+        position: absolute;
+        margin: 70px;
+        color: bisque;
+        /* color: black; */
+
+    }
+
+    /* FONT OF HOME SECTION 5*/
+    .fontimg2 {
+        position: absolute;
+        margin: 100px 50px;
+        color: bisque;
+        /* color: black; */
+    }
+
+
+
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+
+    /* image of Front */
+    #home-sec .mycon img {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    #home-sec .mycon1 img {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .fontimg {
+        position: absolute;
+        margin: 100px 100px;
+        color: whitesmoke;
+    }
+
+    .thirdtext {
+        margin: 20px 0 0 0;
+    }
+
+    /* Button third */
+    .btn-reff {
+
+        margin: 30px 0 0 0;
+    }
+
+    .banner video {
+        display: none;
+
+    }
+
+    /* Firstsection Video */
+    .bannerr video {
+        display: block;
+        position: fixed;
+        overflow: auto;
+        width: 100% !important;
+        height: auto !important;
+        z-index: -2;
+    }
+
+    /* FONT OF HOME SECTION 5*/
+    .fontimg1 {
+        position: absolute;
+        margin: 250px;
+        color: bisque;
+        /* color: black; */
+
+    }
+
+}

@@ -1,0 +1,241 @@
+/* body,
+html,
+header,
+section {
+    margin: 0;
+    padding: 0;
+} */
+
+#home-first {
+    width: auto;
+    height: 90vh;
+
+}
+.bannerr video {
+    display: none;
+    
+}
+/* Firstsection Video */
+.banner video {
+    position: fixed;
+    overflow: auto;
+    width: 100% !important;
+    height: auto !important;
+    z-index: -2;
+}
+
+/* overlay from video */
+.banner .video_overlay {
+    position: fixed;
+    /* height: 100%;
+    width: 100%; */
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.445);
+    z-index: -1;
+    opacity: 0.85;
+}
+
+/* text visable from back */
+#home-first .content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+
+/* HOME SECTION SEC */
+#home-sec {
+    position: relative;
+    width: auto;
+    height: auto;
+    color: white;
+
+}
+
+#home-sec .btn-ref {
+    background-color: transparent;
+    padding: 10px 40px !important;
+    border: 1px solid white !important;
+    color: white;
+}
+
+#home-sec .btn-ref:hover {
+    background-color: white;
+    color: black !important;
+
+}
+
+/* FONT OF HOME SECTION */
+.fontimg {
+    position: absolute;
+    margin: 350px 150px;
+    color: bisque;
+    /* color: black; */
+
+
+}
+
+/* section sec padding */
+.sec-pad {
+    margin: 0 50px;
+}
+
+/* card section sec */
+.card {
+    border: 1px solid black !important;
+    background-color: white !important;
+}
+
+.card:hover {
+    background-color: rgb(43, 8, 8) !important;
+}
+
+/* image of Front */
+#home-sec .mycon img {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    z-index: 2;
+    cursor: pointer;
+
+}
+
+#home-sec .mycon1 img {
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    z-index: 2;
+    cursor: pointer;
+
+}
+
+/* HOME 3RD SECTION */
+#home-third {
+    position: relative;
+    width: auto;
+    height: auto;
+    color: white;
+
+}
+
+/* section sec padding */
+.third-pad {
+    margin: 80px 50px;
+}
+
+/* card section sec */
+#home-third .mycon2 img {
+
+    cursor: pointer;
+
+    /* border: 1px solid black; */
+    z-index: 2;
+}
+/* text marging */
+.thirdtext
+{
+    margin: 100px 0 0 0;
+}
+/* Button third */
+.btn-reff
+{
+    color: rgb(0, 49, 0) !important;
+    padding: 10px 40px !important;
+    border: 1px solid white !important;
+    background: white !important;
+    margin: 100px 0 0 0;
+}
+
+/* image zoom */
+.img-hover-zoom {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.img-hover-zoom img {
+    transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+    transform: scale(1.1);
+}
+/* Image section home */
+.mycon3 img
+{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid black; */
+    z-index: 2;
+    cursor: pointer;
+}
+/* FONT OF HOME SECTION 5*/
+.fontimg1 {
+    position: absolute;
+    margin: 250px;
+    color: white;
+    /* color: black; */
+
+}
+/* FONT OF HOME SECTION 5*/
+.fontimg2 {
+    position: absolute;
+    margin: 200px 50px;
+    color: white;
+    z-index: 2;
+
+    /* color: black; */
+
+}
+/* input filed */
+.input__input {
+    margin-top: 20px;
+    border: 0px;
+    padding: 0 50px 0 50px;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    z-index: 2;
+
+}
+
+.input__input:focus {
+    outline: none;
+    z-index: 2;
+
+}
+/* FONT OF HOME SECTION 5*/
+.fontimg3 {
+    position: absolute;
+    margin: 100px 50px;
+    color: white;
+    z-index: 2;
+
+
+    /* color: black; */
+
+}
+/* section 5 photo overlay */
+.photooverlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 0, 0, 0.247);
+    z-index: 1;
+    opacity: 0.85;
+}
+.photooverlay1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(146, 148, 48, 0.521);
+    z-index: 1;
+    opacity: 0.85;
+}
